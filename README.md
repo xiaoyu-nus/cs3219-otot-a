@@ -10,19 +10,27 @@
 
 Clone the Github Repository to you local machine.
 
-`git clone https://github.com/xiaoyu-nus/cs3219-otot-a.git`
+```
+git clone https://github.com/xiaoyu-nus/cs3219-otot-a.git
+```
 
 Navigate to the project directory.
 
-`cd cs3219-otot-a/project`
+```
+cd cs3219-otot-a/project
+```
 
 Build the images.
 
-`docker-compose build`
+```
+docker-compose build
+```
 
 Serve the web app on localhost.
 
-`docker-compose up`
+```
+docker-compose up
+```
 
 The success message should show: `lizeyan_flask | * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)`
 
